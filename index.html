@@ -14,15 +14,19 @@
   <script src="https://kit.fontawesome.com/ba70a4dab5.js" crossorigin="anonymous"></script>
   <link rel="shortcut icon" href="/favicon.ico">
   <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
 
 
 </head>
 
 <body>
-  <img style="position: absolute; width: 30%; right: 20px; z-index:1;" src="images/b1.png" alt="img">
+  <img style="position: absolute; width: 30%; right: 20px; z-index:1; filter: invert(100%);" src="images/b1.png" alt="img">
   <!-- NAVBAR -->
 
-  <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar navbar-expand-lg navbar-dark">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -53,7 +57,7 @@
       <h1 class="title" data-aos="fade-up">Omar Shalash</h1>
       <p class="description" data-aos="fade-up" data-aos-delay="300">Second year computer science specialist at the University of Toronto</p>
       <!-- <img class="title-img" src="/images/workspace_2_PNG.png" alt="img"> -->
-      <img style="width: 30%; position:absolute; left: -70px; transform: rotate(340deg);" src="images/b4.png" alt="">
+      <img style="width: 30%; position:absolute; left: -70px; transform: rotate(340deg); filter: invert(100%);" src="images/b4.png" alt="">
     </div>
 
   </section>
@@ -70,22 +74,21 @@
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-aos="fade-up" data-aos-delay="600">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <h3 class="project-title">Objectively Best Calendar</h3>
+            <h3 class="project-title hvr-sweep-to-right"><a>Objectively Best Calendar</a></h3>
+            <p class="description">School project for CSC207 class. Worked in a team to develop a fully functional desktop calendar app using Java (Swing). Used what I learned from the course including but not limited to design principles, design patterns and app architecture guidelines dictated by the <a href="https://www.goodreads.com/book/show/18043011-clean-architecture" class="hvr-sweep-to-right inline-links">Clean Archetecture</a> book (good read).
+            Worked on both the back-end as well as the front-end, and implemented features such as the event-related and memo-related features (creating/editing/displaying/deleting events and memos), messaging features and login features as well as overall bug fixes. </p>
+          </div>
+          <div class="carousel-item">
+            <h3 class="project-title hvr-sweep-to-right">Link-Up</h3>
+            <p class="description">Project for <a class="hvr-sweep-to-right inline-links" href="https://hackthevalley.io/">HackTheValley IV</a> and my first experience developing mobile apps. Used Java and Android Studio to develop a social networking app intended to arrange meet-ups in a simple manner. I was personally responsible for designing and implementing the front-end and figuring out the flow and logic of the application. Furthermore, I was exposed to new technologies such as Google Firebase.</p>
+          </div>
+          <div class="carousel-item">
+            <h3 class="project-title hvr-sweep-to-right">Tic-Tac-Toe</h3>
             <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
               commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
           <div class="carousel-item">
-            <h3 class="project-title ">Link-Up</h3>
-            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-              commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-          <div class="carousel-item">
-            <h3 class="project-title">Tic-Tac-Toe</h3>
-            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-              commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-          <div class="carousel-item">
-            <h3 class="project-title">This Website</h3>
+            <h3 class="project-title hvr-sweep-to-right">This Website</h3>
             <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
               commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
@@ -101,6 +104,10 @@
       </div>
 
     </div>
+
+    <!-- <img style="width: 10%;" class="skill-img" src="images/python.png" src="" alt="">
+    <img class="skill-img" src="images/java.png" alt="java">
+    <img class="skill-img" src="images/node.png" alt=""> -->
 
   </section>
 
@@ -118,6 +125,25 @@
       </div>
     </div>
 
+  </section>
+  <hr>
+  <!-- Relavent Courses -->
+  <section id="relavent-courses">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6" data-aos="fade-up-right" data-aos-delay="200">
+          <h1 class="rc-title">Relavent Courses</h1>
+        </div>
+        <div class="col-md-6" data-aos="fade-up-left" data-aos-delay="200">
+          <div class="courses">
+            <h4 class="course hvr-sweep-to-right"><a href="https://fas.calendar.utoronto.ca/course/csc148h1">CSC148: Introduction to Computer Science</a></h4>
+            <h4 class="course hvr-sweep-to-right"><a href="https://fas.calendar.utoronto.ca/course/csc165h1">CSC165: Mathematical Expression and Reasoning for Computer Science</a></h4>
+            <h4 class="course hvr-sweep-to-right"><a href="https://fas.calendar.utoronto.ca/course/csc207h1">CSC207: Software Design</a></h4>
+            <h4 class="course hvr-sweep-to-right"><a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">The Complete 2020 Web Development Bootcamp - Udemy</a></h4>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- Contact -->
